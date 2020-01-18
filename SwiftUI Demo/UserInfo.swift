@@ -25,13 +25,14 @@ struct UserInfo : Identifiable {
 #if DEBUG
 let testData = [
     UserInfo(name : "Himanshu", position : "iOS Developer", imageName : "himanshu", isCEO : true),
-    UserInfo(name : "Deepak", position : "iOS Developer",imageName : "user", isCEO : false),
+    UserInfo(name : "Deepak", position : "iOS Developer",imageName : "himanshu", isCEO : false),
     UserInfo(name : "Varun", position : "iOS Developer",imageName : "himanshu", isCEO : true),
-    UserInfo(name : "Shashank", position : "iOS Developer",imageName : "user", isCEO : false),
-    UserInfo(name : "Nisha", position : "iOS Developer",imageName : "himanshu", isCEO : true),
-    UserInfo(name : "Rishav", position : "iOS Developer",imageName : "user", isCEO : false),
-    UserInfo(name : "Abhishek", position : "iOS Developer",imageName : "himanshu", isCEO : true),
-    UserInfo(name : "Dharmesh", position : "iOS Developer",imageName : "himanshu", isCEO : false),
+    UserInfo(name : "Pavneesh", position : "iOS Developer",imageName : "himanshu", isCEO : false),
+    UserInfo(name : "Shashank", position : "Backend Developer",imageName : "himanshu", isCEO : false),
+    UserInfo(name : "Nisha", position : "Android Developer",imageName : "user", isCEO : true),
+    UserInfo(name : "Rishav", position : "UI Designer",imageName : "himanshu", isCEO : false),
+    UserInfo(name : "Abhishek", position : "Backend Developer",imageName : "himanshu", isCEO : true),
+    UserInfo(name : "Dharmesh", position : "Web Developer",imageName : "himanshu", isCEO : false),
     
 ]
 #endif
